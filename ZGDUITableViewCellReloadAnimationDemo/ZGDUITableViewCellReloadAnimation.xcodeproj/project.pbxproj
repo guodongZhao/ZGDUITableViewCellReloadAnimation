@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A461DAC1D0EA0F300314872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A461DAB1D0EA0F300314872 /* main.m */; };
+		9A461DAF1D0EA0F300314872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A461DAE1D0EA0F300314872 /* AppDelegate.m */; };
+		9A461DB21D0EA0F300314872 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A461DB11D0EA0F300314872 /* ViewController.m */; };
+		9A461DB51D0EA0F300314872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A461DB31D0EA0F300314872 /* Main.storyboard */; };
+		9A461DB71D0EA0F300314872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A461DB61D0EA0F300314872 /* Assets.xcassets */; };
+		9A461DBA1D0EA0F300314872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A461DB81D0EA0F300314872 /* LaunchScreen.storyboard */; };
+		9A461DC51D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A461DC41D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationTests.m */; };
+		9A461DD01D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A461DCF1D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationUITests.m */; };
+		9A461DE01D0EA12500314872 /* Bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A461DDD1D0EA12500314872 /* Bird.jpg */; };
+		9A461DE11D0EA12500314872 /* UITableView+ReloadAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A461DDF1D0EA12500314872 /* UITableView+ReloadAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A461DC11D0EA0F300314872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A461D9F1D0EA0F300314872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A461DA61D0EA0F300314872;
+			remoteInfo = ZGDUITableViewCellReloadAnimation;
+		};
+		9A461DCC1D0EA0F300314872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A461D9F1D0EA0F300314872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A461DA61D0EA0F300314872;
+			remoteInfo = ZGDUITableViewCellReloadAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A461DA71D0EA0F300314872 /* ZGDUITableViewCellReloadAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGDUITableViewCellReloadAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A461DAB1D0EA0F300314872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A461DAD1D0EA0F300314872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A461DAE1D0EA0F300314872 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A461DB01D0EA0F300314872 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A461DB11D0EA0F300314872 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A461DB41D0EA0F300314872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A461DB61D0EA0F300314872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A461DB91D0EA0F300314872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A461DBB1D0EA0F300314872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A461DC01D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGDUITableViewCellReloadAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A461DC41D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGDUITableViewCellReloadAnimationTests.m; sourceTree = "<group>"; };
+		9A461DC61D0EA0F300314872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A461DCB1D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGDUITableViewCellReloadAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A461DCF1D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGDUITableViewCellReloadAnimationUITests.m; sourceTree = "<group>"; };
+		9A461DD11D0EA0F300314872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A461DDD1D0EA12500314872 /* Bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bird.jpg; sourceTree = "<group>"; };
+		9A461DDE1D0EA12500314872 /* UITableView+ReloadAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ReloadAnimation.h"; sourceTree = "<group>"; };
+		9A461DDF1D0EA12500314872 /* UITableView+ReloadAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ReloadAnimation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A461DA41D0EA0F300314872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A461DBD1D0EA0F300314872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A461DC81D0EA0F300314872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A461D9E1D0EA0F300314872 = {
+			isa = PBXGroup;
+			children = (
+				9A461DA91D0EA0F300314872 /* ZGDUITableViewCellReloadAnimation */,
+				9A461DC31D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationTests */,
+				9A461DCE1D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationUITests */,
+				9A461DA81D0EA0F300314872 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A461DA81D0EA0F300314872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A461DA71D0EA0F300314872 /* ZGDUITableViewCellReloadAnimation.app */,
+				9A461DC01D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationTests.xctest */,
+				9A461DCB1D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A461DA91D0EA0F300314872 /* ZGDUITableViewCellReloadAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				9A461DDD1D0EA12500314872 /* Bird.jpg */,
+				9A461DDE1D0EA12500314872 /* UITableView+ReloadAnimation.h */,
+				9A461DDF1D0EA12500314872 /* UITableView+ReloadAnimation.m */,
+				9A461DAD1D0EA0F300314872 /* AppDelegate.h */,
+				9A461DAE1D0EA0F300314872 /* AppDelegate.m */,
+				9A461DB01D0EA0F300314872 /* ViewController.h */,
+				9A461DB11D0EA0F300314872 /* ViewController.m */,
+				9A461DB31D0EA0F300314872 /* Main.storyboard */,
+				9A461DB61D0EA0F300314872 /* Assets.xcassets */,
+				9A461DB81D0EA0F300314872 /* LaunchScreen.storyboard */,
+				9A461DBB1D0EA0F300314872 /* Info.plist */,
+				9A461DAA1D0EA0F300314872 /* Supporting Files */,
+			);
+			path = ZGDUITableViewCellReloadAnimation;
+			sourceTree = "<group>";
+		};
+		9A461DAA1D0EA0F300314872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A461DAB1D0EA0F300314872 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A461DC31D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A461DC41D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationTests.m */,
+				9A461DC61D0EA0F300314872 /* Info.plist */,
+			);
+			path = ZGDUITableViewCellReloadAnimationTests;
+			sourceTree = "<group>";
+		};
+		9A461DCE1D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A461DCF1D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationUITests.m */,
+				9A461DD11D0EA0F300314872 /* Info.plist */,
+			);
+			path = ZGDUITableViewCellReloadAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A461DA61D0EA0F300314872 /* ZGDUITableViewCellReloadAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A461DD41D0EA0F300314872 /* Build configuration list for PBXNativeTarget "ZGDUITableViewCellReloadAnimation" */;
+			buildPhases = (
+				9A461DA31D0EA0F300314872 /* Sources */,
+				9A461DA41D0EA0F300314872 /* Frameworks */,
+				9A461DA51D0EA0F300314872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGDUITableViewCellReloadAnimation;
+			productName = ZGDUITableViewCellReloadAnimation;
+			productReference = 9A461DA71D0EA0F300314872 /* ZGDUITableViewCellReloadAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A461DBF1D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A461DD71D0EA0F300314872 /* Build configuration list for PBXNativeTarget "ZGDUITableViewCellReloadAnimationTests" */;
+			buildPhases = (
+				9A461DBC1D0EA0F300314872 /* Sources */,
+				9A461DBD1D0EA0F300314872 /* Frameworks */,
+				9A461DBE1D0EA0F300314872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A461DC21D0EA0F300314872 /* PBXTargetDependency */,
+			);
+			name = ZGDUITableViewCellReloadAnimationTests;
+			productName = ZGDUITableViewCellReloadAnimationTests;
+			productReference = 9A461DC01D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A461DCA1D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A461DDA1D0EA0F300314872 /* Build configuration list for PBXNativeTarget "ZGDUITableViewCellReloadAnimationUITests" */;
+			buildPhases = (
+				9A461DC71D0EA0F300314872 /* Sources */,
+				9A461DC81D0EA0F300314872 /* Frameworks */,
+				9A461DC91D0EA0F300314872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A461DCD1D0EA0F300314872 /* PBXTargetDependency */,
+			);
+			name = ZGDUITableViewCellReloadAnimationUITests;
+			productName = ZGDUITableViewCellReloadAnimationUITests;
+			productReference = 9A461DCB1D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A461D9F1D0EA0F300314872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "赵国栋";
+				TargetAttributes = {
+					9A461DA61D0EA0F300314872 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9A461DBF1D0EA0F300314872 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2X3SH8S946;
+						TestTargetID = 9A461DA61D0EA0F300314872;
+					};
+					9A461DCA1D0EA0F300314872 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2X3SH8S946;
+						TestTargetID = 9A461DA61D0EA0F300314872;
+					};
+				};
+			};
+			buildConfigurationList = 9A461DA21D0EA0F300314872 /* Build configuration list for PBXProject "ZGDUITableViewCellReloadAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A461D9E1D0EA0F300314872;
+			productRefGroup = 9A461DA81D0EA0F300314872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A461DA61D0EA0F300314872 /* ZGDUITableViewCellReloadAnimation */,
+				9A461DBF1D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationTests */,
+				9A461DCA1D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A461DA51D0EA0F300314872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A461DE01D0EA12500314872 /* Bird.jpg in Resources */,
+				9A461DBA1D0EA0F300314872 /* LaunchScreen.storyboard in Resources */,
+				9A461DB71D0EA0F300314872 /* Assets.xcassets in Resources */,
+				9A461DB51D0EA0F300314872 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A461DBE1D0EA0F300314872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A461DC91D0EA0F300314872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A461DA31D0EA0F300314872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A461DB21D0EA0F300314872 /* ViewController.m in Sources */,
+				9A461DAF1D0EA0F300314872 /* AppDelegate.m in Sources */,
+				9A461DAC1D0EA0F300314872 /* main.m in Sources */,
+				9A461DE11D0EA12500314872 /* UITableView+ReloadAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A461DBC1D0EA0F300314872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A461DC51D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A461DC71D0EA0F300314872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A461DD01D0EA0F300314872 /* ZGDUITableViewCellReloadAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A461DC21D0EA0F300314872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A461DA61D0EA0F300314872 /* ZGDUITableViewCellReloadAnimation */;
+			targetProxy = 9A461DC11D0EA0F300314872 /* PBXContainerItemProxy */;
+		};
+		9A461DCD1D0EA0F300314872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A461DA61D0EA0F300314872 /* ZGDUITableViewCellReloadAnimation */;
+			targetProxy = 9A461DCC1D0EA0F300314872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A461DB31D0EA0F300314872 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A461DB41D0EA0F300314872 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A461DB81D0EA0F300314872 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A461DB91D0EA0F300314872 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A461DD21D0EA0F300314872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A461DD31D0EA0F300314872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A461DD51D0EA0F300314872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZGDUITableViewCellReloadAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZGD.ZGDUITableViewCellReloadAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A461DD61D0EA0F300314872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZGDUITableViewCellReloadAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZGD.ZGDUITableViewCellReloadAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A461DD81D0EA0F300314872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGDUITableViewCellReloadAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZGD.ZGDUITableViewCellReloadAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGDUITableViewCellReloadAnimation.app/ZGDUITableViewCellReloadAnimation";
+			};
+			name = Debug;
+		};
+		9A461DD91D0EA0F300314872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGDUITableViewCellReloadAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZGD.ZGDUITableViewCellReloadAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGDUITableViewCellReloadAnimation.app/ZGDUITableViewCellReloadAnimation";
+			};
+			name = Release;
+		};
+		9A461DDB1D0EA0F300314872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZGDUITableViewCellReloadAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZGD.ZGDUITableViewCellReloadAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGDUITableViewCellReloadAnimation;
+			};
+			name = Debug;
+		};
+		9A461DDC1D0EA0F300314872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZGDUITableViewCellReloadAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZGD.ZGDUITableViewCellReloadAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGDUITableViewCellReloadAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A461DA21D0EA0F300314872 /* Build configuration list for PBXProject "ZGDUITableViewCellReloadAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A461DD21D0EA0F300314872 /* Debug */,
+				9A461DD31D0EA0F300314872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A461DD41D0EA0F300314872 /* Build configuration list for PBXNativeTarget "ZGDUITableViewCellReloadAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A461DD51D0EA0F300314872 /* Debug */,
+				9A461DD61D0EA0F300314872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A461DD71D0EA0F300314872 /* Build configuration list for PBXNativeTarget "ZGDUITableViewCellReloadAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A461DD81D0EA0F300314872 /* Debug */,
+				9A461DD91D0EA0F300314872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A461DDA1D0EA0F300314872 /* Build configuration list for PBXNativeTarget "ZGDUITableViewCellReloadAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A461DDB1D0EA0F300314872 /* Debug */,
+				9A461DDC1D0EA0F300314872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A461D9F1D0EA0F300314872 /* Project object */;
+}
