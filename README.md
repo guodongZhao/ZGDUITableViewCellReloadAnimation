@@ -4,7 +4,7 @@
 -----------------------------
 
 ## `Show`
-![](https://github.com/guodongZhao/ZGDUITableViewCellReloadAnimation/ZGDUITableViewCellReloadAnimationDemo/testShow.gif)
+![](https://github.com/guodongZhao/ZGDUITableViewCellReloadAnimation/raw/master/testShow.gif)
 
 ### 对UITableView进行类别拓展   使用者为UITableView对象
 
