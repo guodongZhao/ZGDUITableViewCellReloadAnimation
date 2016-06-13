@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#import "ViewController.h"
+#import "UINavigationControllerNewStyle.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UINavigationControllerNewStyle *nav = [[UINavigationControllerNewStyle alloc] initWithRootViewController:[[ViewController alloc] init]];
+    
+    // 设置根控制器
+    [self.window setRootViewController: nav];
+    // 显示界面
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

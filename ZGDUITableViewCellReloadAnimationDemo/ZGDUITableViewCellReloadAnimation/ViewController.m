@@ -9,10 +9,13 @@
 #import "ViewController.h"
 
 #import "UITableView+ReloadAnimation.h"
+#import "UIBarButtonItem+Helper.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
+
+@property (nonatomic, assign) CellReloadAnimationStyle animationType;
 
 @end
 
@@ -59,19 +62,39 @@
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // 调用刷新cell动画
-    [tableView addReloadingAnimationWithTableViewCell:cell andAnimationType:CellReloadAnimationStyleLeftToRight];
+    [tableView addReloadingAnimationWithTableViewCell:cell andAnimationType:self.animationType];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 100;
+    return 70;
 }
 
 #pragma mark -
 #pragma mark lifecycle
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIBarButtonItem *item1 = [UIBarButtonItem itemWithTitle:@"从下向上" target:self action:@selector(item1Action)];
+    UIBarButtonItem *item2 = [UIBarButtonItem itemWithTitle:@"从右向左" target:self action:@selector(item2Action)];
+    UIBarButtonItem *item3 = [UIBarButtonItem itemWithTitle:@"从左向右" target:self action:@selector(item3Action)];
+    
+    self.navigationItem.leftBarButtonItems = @[item1, item2, item3];
     [self.view addSubview:self.tableView];
+}
+//从下向上
+- (void)item1Action
+{
+    self.animationType = CellReloadAnimationStyleBottomToTop;
+}
+//从右向左
+- (void)item2Action
+{
+    self.animationType = CellReloadAnimationStyleRightToLeft;
+}
+//从左向右
+- (void)item3Action
+{
+    self.animationType = CellReloadAnimationStyleLeftToRight;
 }
 
 @end
